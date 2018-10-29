@@ -1,0 +1,496 @@
+{
+    "release": {
+        "id": "acs2016_5yr",
+        "name": "ACS 2016 5-year",
+        "years": "2012-2016"
+    },
+    "tables": {
+        "B08134": {
+            "title": "Means of Transportation to Work by Travel Time to Work",
+            "universe": "Workers 16 Years and Over Who Did Not Work at Home",
+            "denominator_column_id": "B08134001",
+            "columns": {
+                "B08134001": {
+                    "name": "Total:",
+                    "indent": 0
+                },
+                "B08134002": {
+                    "name": "Less than 10 minutes",
+                    "indent": 4
+                },
+                "B08134003": {
+                    "name": "10 to 14 minutes",
+                    "indent": 4
+                },
+                "B08134004": {
+                    "name": "15 to 19 minutes",
+                    "indent": 4
+                },
+                "B08134005": {
+                    "name": "20 to 24 minutes",
+                    "indent": 4
+                },
+                "B08134006": {
+                    "name": "25 to 29 minutes",
+                    "indent": 4
+                },
+                "B08134007": {
+                    "name": "30 to 34 minutes",
+                    "indent": 4
+                },
+                "B08134008": {
+                    "name": "35 to 44 minutes",
+                    "indent": 4
+                },
+                "B08134009": {
+                    "name": "45 to 59 minutes",
+                    "indent": 4
+                },
+                "B08134010": {
+                    "name": "60 or more minutes",
+                    "indent": 4
+                },
+                "B08134011": {
+                    "name": "Car, truck, or van:",
+                    "indent": 1
+                },
+                "B08134012": {
+                    "name": "Less than 10 minutes",
+                    "indent": 4
+                },
+                "B08134013": {
+                    "name": "10 to 14 minutes",
+                    "indent": 4
+                },
+                "B08134014": {
+                    "name": "15 to 19 minutes",
+                    "indent": 4
+                },
+                "B08134015": {
+                    "name": "20 to 24 minutes",
+                    "indent": 4
+                },
+                "B08134016": {
+                    "name": "25 to 29 minutes",
+                    "indent": 4
+                },
+                "B08134017": {
+                    "name": "30 to 34 minutes",
+                    "indent": 4
+                },
+                "B08134018": {
+                    "name": "35 to 44 minutes",
+                    "indent": 4
+                },
+                "B08134019": {
+                    "name": "45 to 59 minutes",
+                    "indent": 4
+                },
+                "B08134020": {
+                    "name": "60 or more minutes",
+                    "indent": 4
+                },
+                "B08134021": {
+                    "name": "Drove alone:",
+                    "indent": 2
+                },
+                "B08134022": {
+                    "name": "Less than 10 minutes",
+                    "indent": 4
+                },
+                "B08134023": {
+                    "name": "10 to 14 minutes",
+                    "indent": 4
+                },
+                "B08134024": {
+                    "name": "15 to 19 minutes",
+                    "indent": 4
+                },
+                "B08134025": {
+                    "name": "20 to 24 minutes",
+                    "indent": 4
+                },
+                "B08134026": {
+                    "name": "25 to 29 minutes",
+                    "indent": 4
+                },
+                "B08134027": {
+                    "name": "30 to 34 minutes",
+                    "indent": 4
+                },
+                "B08134028": {
+                    "name": "35 to 44 minutes",
+                    "indent": 4
+                },
+                "B08134029": {
+                    "name": "45 to 59 minutes",
+                    "indent": 4
+                },
+                "B08134030": {
+                    "name": "60 or more minutes",
+                    "indent": 4
+                },
+                "B08134031": {
+                    "name": "Carpooled:",
+                    "indent": 2
+                },
+                "B08134032": {
+                    "name": "Less than 10 minutes",
+                    "indent": 4
+                },
+                "B08134033": {
+                    "name": "10 to 14 minutes",
+                    "indent": 4
+                },
+                "B08134034": {
+                    "name": "15 to 19 minutes",
+                    "indent": 4
+                },
+                "B08134035": {
+                    "name": "20 to 24 minutes",
+                    "indent": 4
+                },
+                "B08134036": {
+                    "name": "25 to 29 minutes",
+                    "indent": 4
+                },
+                "B08134037": {
+                    "name": "30 to 34 minutes",
+                    "indent": 4
+                },
+                "B08134038": {
+                    "name": "35 to 44 minutes",
+                    "indent": 4
+                },
+                "B08134039": {
+                    "name": "45 to 59 minutes",
+                    "indent": 4
+                },
+                "B08134040": {
+                    "name": "60 or more minutes",
+                    "indent": 4
+                },
+                "B08134041": {
+                    "name": "In 2-person carpool:",
+                    "indent": 3
+                },
+                "B08134042": {
+                    "name": "Less than 10 minutes",
+                    "indent": 4
+                },
+                "B08134043": {
+                    "name": "10 to 14 minutes",
+                    "indent": 4
+                },
+                "B08134044": {
+                    "name": "15 to 19 minutes",
+                    "indent": 4
+                },
+                "B08134045": {
+                    "name": "20 to 24 minutes",
+                    "indent": 4
+                },
+                "B08134046": {
+                    "name": "25 to 29 minutes",
+                    "indent": 4
+                },
+                "B08134047": {
+                    "name": "30 to 34 minutes",
+                    "indent": 4
+                },
+                "B08134048": {
+                    "name": "35 to 44 minutes",
+                    "indent": 4
+                },
+                "B08134049": {
+                    "name": "45 to 59 minutes",
+                    "indent": 4
+                },
+                "B08134050": {
+                    "name": "60 or more minutes",
+                    "indent": 4
+                },
+                "B08134051": {
+                    "name": "In 3-or-more-person carpool:",
+                    "indent": 3
+                },
+                "B08134052": {
+                    "name": "Less than 10 minutes",
+                    "indent": 4
+                },
+                "B08134053": {
+                    "name": "10 to 14 minutes",
+                    "indent": 4
+                },
+                "B08134054": {
+                    "name": "15 to 19 minutes",
+                    "indent": 4
+                },
+                "B08134055": {
+                    "name": "20 to 24 minutes",
+                    "indent": 4
+                },
+                "B08134056": {
+                    "name": "25 to 29 minutes",
+                    "indent": 4
+                },
+                "B08134057": {
+                    "name": "30 to 34 minutes",
+                    "indent": 4
+                },
+                "B08134058": {
+                    "name": "35 to 44 minutes",
+                    "indent": 4
+                },
+                "B08134059": {
+                    "name": "45 to 59 minutes",
+                    "indent": 4
+                },
+                "B08134060": {
+                    "name": "60 or more minutes",
+                    "indent": 4
+                },
+                "B08134061": {
+                    "name": "Public transportation (excluding taxicab):",
+                    "indent": 1
+                },
+                "B08134062": {
+                    "name": "Less than 10 minutes",
+                    "indent": 4
+                },
+                "B08134063": {
+                    "name": "10 to 14 minutes",
+                    "indent": 4
+                },
+                "B08134064": {
+                    "name": "15 to 19 minutes",
+                    "indent": 4
+                },
+                "B08134065": {
+                    "name": "20 to 24 minutes",
+                    "indent": 4
+                },
+                "B08134066": {
+                    "name": "25 to 29 minutes",
+                    "indent": 4
+                },
+                "B08134067": {
+                    "name": "30 to 34 minutes",
+                    "indent": 4
+                },
+                "B08134068": {
+                    "name": "35 to 44 minutes",
+                    "indent": 4
+                },
+                "B08134069": {
+                    "name": "45 to 59 minutes",
+                    "indent": 4
+                },
+                "B08134070": {
+                    "name": "60 or more minutes",
+                    "indent": 4
+                },
+                "B08134071": {
+                    "name": "Bus or trolley bus:",
+                    "indent": 2
+                },
+                "B08134072": {
+                    "name": "Less than 10 minutes",
+                    "indent": 4
+                },
+                "B08134073": {
+                    "name": "10 to 14 minutes",
+                    "indent": 4
+                },
+                "B08134074": {
+                    "name": "15 to 19 minutes",
+                    "indent": 4
+                },
+                "B08134075": {
+                    "name": "20 to 24 minutes",
+                    "indent": 4
+                },
+                "B08134076": {
+                    "name": "25 to 29 minutes",
+                    "indent": 4
+                },
+                "B08134077": {
+                    "name": "30 to 34 minutes",
+                    "indent": 4
+                },
+                "B08134078": {
+                    "name": "35 to 44 minutes",
+                    "indent": 4
+                },
+                "B08134079": {
+                    "name": "45 to 59 minutes",
+                    "indent": 4
+                },
+                "B08134080": {
+                    "name": "60 or more minutes",
+                    "indent": 4
+                },
+                "B08134081": {
+                    "name": "Streetcar or trolley car (carro publico in Puerto Rico), subway or elevated:",
+                    "indent": 2
+                },
+                "B08134082": {
+                    "name": "Less than 10 minutes",
+                    "indent": 4
+                },
+                "B08134083": {
+                    "name": "10 to 14 minutes",
+                    "indent": 4
+                },
+                "B08134084": {
+                    "name": "15 to 19 minutes",
+                    "indent": 4
+                },
+                "B08134085": {
+                    "name": "20 to 24 minutes",
+                    "indent": 4
+                },
+                "B08134086": {
+                    "name": "25 to 29 minutes",
+                    "indent": 4
+                },
+                "B08134087": {
+                    "name": "30 to 34 minutes",
+                    "indent": 4
+                },
+                "B08134088": {
+                    "name": "35 to 44 minutes",
+                    "indent": 4
+                },
+                "B08134089": {
+                    "name": "45 to 59 minutes",
+                    "indent": 4
+                },
+                "B08134090": {
+                    "name": "60 or more minutes",
+                    "indent": 4
+                },
+                "B08134091": {
+                    "name": "Railroad or ferryboat:",
+                    "indent": 2
+                },
+                "B08134092": {
+                    "name": "Less than 10 minutes",
+                    "indent": 4
+                },
+                "B08134093": {
+                    "name": "10 to 14 minutes",
+                    "indent": 4
+                },
+                "B08134094": {
+                    "name": "15 to 19 minutes",
+                    "indent": 4
+                },
+                "B08134095": {
+                    "name": "20 to 24 minutes",
+                    "indent": 4
+                },
+                "B08134096": {
+                    "name": "25 to 29 minutes",
+                    "indent": 4
+                },
+                "B08134097": {
+                    "name": "30 to 34 minutes",
+                    "indent": 4
+                },
+                "B08134098": {
+                    "name": "35 to 44 minutes",
+                    "indent": 4
+                },
+                "B08134099": {
+                    "name": "45 to 59 minutes",
+                    "indent": 4
+                },
+                "B08134100": {
+                    "name": "60 or more minutes",
+                    "indent": 4
+                },
+                "B08134101": {
+                    "name": "Walked:",
+                    "indent": 1
+                },
+                "B08134102": {
+                    "name": "Less than 10 minutes",
+                    "indent": 4
+                },
+                "B08134103": {
+                    "name": "10 to 14 minutes",
+                    "indent": 4
+                },
+                "B08134104": {
+                    "name": "15 to 19 minutes",
+                    "indent": 4
+                },
+                "B08134105": {
+                    "name": "20 to 24 minutes",
+                    "indent": 4
+                },
+                "B08134106": {
+                    "name": "25 to 29 minutes",
+                    "indent": 4
+                },
+                "B08134107": {
+                    "name": "30 to 34 minutes",
+                    "indent": 4
+                },
+                "B08134108": {
+                    "name": "35 to 44 minutes",
+                    "indent": 4
+                },
+                "B08134109": {
+                    "name": "45 to 59 minutes",
+                    "indent": 4
+                },
+                "B08134110": {
+                    "name": "60 or more minutes",
+                    "indent": 4
+                },
+                "B08134111": {
+                    "name": "Taxicab, motorcycle, bicycle, or other means:",
+                    "indent": 1
+                },
+                "B08134112": {
+                    "name": "Less than 10 minutes",
+                    "indent": 4
+                },
+                "B08134113": {
+                    "name": "10 to 14 minutes",
+                    "indent": 4
+                },
+                "B08134114": {
+                    "name": "15 to 19 minutes",
+                    "indent": 4
+                },
+                "B08134115": {
+                    "name": "20 to 24 minutes",
+                    "indent": 4
+                },
+                "B08134116": {
+                    "name": "25 to 29 minutes",
+                    "indent": 4
+                },
+                "B08134117": {
+                    "name": "30 to 34 minutes",
+                    "indent": 4
+                },
+                "B08134118": {
+                    "name": "35 to 44 minutes",
+                    "indent": 4
+                },
+                "B08134119": {
+                    "name": "45 to 59 minutes",
+                    "indent": 4
+                },
+                "B08134120": {
+                    "name": "60 or more minutes",
+                    "indent": 4
+                }
+            }
+        }
+    }
+}
