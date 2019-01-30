@@ -2,6 +2,7 @@
 
 **Doing Social Good for Local San Diego Community**
 `Who Gets Stopped by San Diego Police`
+
 What are the demographics of people who get stopped for traffic violations, why are they stopped, and how do their demographics compare to the areas where they are stopped?
 
 
@@ -15,12 +16,14 @@ The following Python Libraries are used in this investigation
 
 ```
 
-1. regular expression (re)
-2. requests
+1. os
+2. glob
 3. pandas
-4. Beautifulsoup
-5. folium and plugins
+4. geopandas
+5. matplotlib
 6. seaborn
+7. numpy
+8. folium
 
 ```
 
@@ -28,53 +31,43 @@ The following Python Libraries are used in this investigation
 
 ```
 
-1. Web Scraping for data collection
-2. Data Wrangle and Retrieve the Geo-Location of fellows
-3. API and Mapping (Using Free API)
-4. Background Investigation
+1. Dataset Investigation and Clean
+2. Data Analysis on the relation between age/sex and stop-cause
+3. Relation Analysis between Race and Stop-Cause
+4. Relation Analysis between Race and Regions on the certain Stop-Cause
+    1. Moving Violation
+    2. Equipment Violation
 
 ```
 
-### Web Scrapping
+### Data Investigation and Clean
 
-I navigate the website of Insight, [Insight Data Science Fellows](https://www.insightdatascience.com/fellows) to retrieve the background information of Insight's Fellow. Insight's website is created on a structured way which leads to the convinient way to scrap the structured data
+There are two different categories of data involved in this project:
+1. Vehicle Stops Data from 2014 to 2017 and Race Code Translation => [Data Source](https://data.sandiego.gov/datasets/police-vehicle-stops/)
+2. Demographic Data based on Police Beat Region => [Data Source](https://data.sandiegodata.org/dataset/sandiego-gov-police_regions)
 
-The basic workflow in this section is like the following:
-1. Request the html data page by page => Utilize [Requests](http://docs.python-requests.org/en/master/)
-2. Scrap the html data from pages in a structued way => Recommend [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) for html data
-3. Manipulate String with [Regular Expression](https://docs.python.org/3/library/re.html)
-4. Store the scrapped data into Dataframe format for the further wranggling => Use [Pandas](https://pandas.pydata.org/)
+We highly utilize [Pandas](https://pandas.pydata.org/) to wrangle the data like SQL way. It includes the following `Pandas` functions: 
+1. `Join`
+2. `Apply`
+3. `Groupby`
 
-### Data Wrangle
+In addition to `Pandas`, we also have to incoperate [GeoPandas](http://geopandas.org/) to retrieve the geojson data and save as DataFrame format
 
-Even with the web data successfully loaded into Pandas Dataframe, the scrapped data are sometimes very row. The row data in this web-scrapping action comes from two actions:
-1. Missing Data or Null Data or Non-PhD Background
-2. Miss Placement in the html
+### Data Analysis on the relation between age/sex and stop-cause
 
-The row data will further requires cleanning and can be `reasonable` manipulated sometimes.
-The basic cleanning workflow is like the following:
+#### Data Wrangle
 
-1. Identify the null data in the dataframe
-2. To see if the mis-placed data could be fixed or manipulated
-3. Save the data into new csv 
+#### Visulization and Results
 
-The workflow can be implemented with `Pandas` 
+### Relation Analysis between Race and Stop-Cause
 
-### API and Mapping (Free API)
+#### Data Wrangle
 
-In this section, we utilize [Folium Map](https://python-visualization.github.io/folium/docs-v0.6.0/) to have the interactive marker. In addition, we can also have the plugin function of `MarkerCluster` to have the interactive aggregated number of regional cluster shown in Map
+#### Visulization and Results
 
-#### Results
+### Relation Analysis between Race and Regions on the certain Stop-Cause
 
-![Mapping](https://github.com/MacYeh/Insight_Fellow_Background_Analysis/blob/master/Results/Insight_Fellows_Mapping_USA.png)
+#### Moving Violation
 
-### Major Background Investigation
-
-In this section, we would use the following functions to have the background check of fellows:
-1. `Pandas Apply` => This is similar as `SQL` `casewhen` to have the catogorized data
-2. Visualize the distribution of the major => Use [Seaborn](https://seaborn.pydata.org/index.html)
-
-#### Results
-
-![Background](https://github.com/MacYeh/Insight_Fellow_Background_Analysis/blob/master/Results/Insight_Fellow_Background_Distribution.png)
+#### Equipment Violation
 
