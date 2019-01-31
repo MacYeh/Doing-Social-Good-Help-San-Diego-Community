@@ -114,9 +114,13 @@ We plot the per-capita rate on the total population at San Diego of each race gr
 
 #### Moving Violation
 
+![Moving](https://github.com/MacYeh/Help-San-Diego-Community-/blob/master/police_pull_over/figure/service_area_race_moving_per_capita.png)
+
 We have the per-capita rate between the top 8 most beat areas on moving violation and the different racial groups. The per-capita rate is calculated with each racial population of beat areas. The results show at the certain beat areas, like **120** (which is mainly the **Mission Bay/La Jolla regions**), the Black race has the highest rate, the American Indian race has the highest ratethe at beat area, like **240** (which is mainly **Mira Mesa region**). The heatmap also shows per-capita rate is high among all race-groups at Beat **520** (which is **Downtown Region**). The American Indian per-capita rate is even larger than 1 at some regions, the stopping cause data does not reveal the details if the same driver is recorded to different violation cases, however. This is the point we have to consider before interpreting the data based on per-capita.
 
 #### Equipment Violation
+
+![Equipment](https://github.com/MacYeh/Help-San-Diego-Community-/blob/master/police_pull_over/figure/service_area_race_equipment_per_capita.png)
 
 We have the per-capita rate between the top 8 most beat areas on equipment violation and the different racial groups. The per-capita rate is calculated with each racial population of beat areas. The results show at the certain beat areas, like **240** and **930** (which is mainly the **Mira Mesa and Del Mar/Carmal Valley Regions**), the American Indian race has the highest rate which is even larger than 1. Note that the stopping cause data does not reveal the details if the same driver is recorded to different violation cases, however. This is the point we have to consider before interpreting the data based on per-capita. Beat Area **930** (**Del-Mar and Carmal Valley Regions**) lead to the higher per-capita rate for some of the groups.
 
