@@ -6,6 +6,7 @@
 
 What are the demographics of people who get stopped for traffic violations, why are they stopped, and how do their demographics compare to the areas where they are stopped?
 
+I have also published the results for San Diego Data Organization [SD Data Organization](https://www.sandiegodata.org/question/who-gets-stopped-by-san-diego-police/)
 
 ## Getting Started
 
@@ -75,6 +76,8 @@ Utilize
 2. **`Seaborn FacetGrid`** to have multiple plotts with different stop-causes
 3. **`Seaborn HeatMap`** to visualize the relation between age and stop cause
 
+[Age-Sex Stop-Cause](https://github.com/MacYeh/Help-San-Diego-Community-/blob/master/police_pull_over/figure/age_stop_cause.png)
+
 #### Observation and Conclusion
 
 With the distributions and the heatmaps, two pull-over reaons from San Diego PD are 
@@ -106,9 +109,14 @@ Utilize
 
 Note: we were using the concept of [Per Capita Rate](https://www.robertniles.com/stats/percap.shtml)
 
+![Race Stop-Cause](https://github.com/MacYeh/Help-San-Diego-Community-/blob/master/police_pull_over/figure/race_stop_cause_per_capita.png)
+
 #### Observation and Conclusion
 
 We plot the per-capita rate on the total population at San Diego of each race group and the stop causes. It turns out the first two race groups violating the moving and equipment rules in terms of per-capita rate are **the American Indian** and **the Black**. The American Indian per-capita rate is even larger than 0.5 from the heatmap, the stopping cause data does not reveal the details if the same driver is recorded to different violation cases, however. This is the point we have to consider before interpreting the data based on per-capita
+
+Attention: per-capita rate is high on the certain beat area and racial groups. We have to notice the stop cause database is recorded without identifying if the same person has different cases violations.
+Thus, interpreting per-capita rate, especially the lower number of racial population, should be careful, like American Indian.
 
 ### Relation Analysis between Race and Regions on the major Stop-Cause
 
@@ -117,6 +125,9 @@ We plot the per-capita rate on the total population at San Diego of each race gr
 ![Moving](https://github.com/MacYeh/Help-San-Diego-Community-/blob/master/police_pull_over/figure/service_area_race_moving_per_capita.png)
 
 We have the per-capita rate between the top 8 most beat areas on moving violation and the different racial groups. The per-capita rate is calculated with each racial population of beat areas. The results show at the certain beat areas, like **120** (which is mainly the **Mission Bay/La Jolla regions**), the Black race has the highest rate, the American Indian race has the highest ratethe at beat area, like **240** (which is mainly **Mira Mesa region**). The heatmap also shows per-capita rate is high among all race-groups at Beat **520** (which is **Downtown Region**). The American Indian per-capita rate is even larger than 1 at some regions, the stopping cause data does not reveal the details if the same driver is recorded to different violation cases, however. This is the point we have to consider before interpreting the data based on per-capita.
+
+Attention: per-capita rate is high on the certain beat area and racial groups. We have to notice the stop cause database is recorded without identifying if the same person has different cases violations.
+Thus, interpreting per-capita rate, especially the lower number of racial population, should be careful, like American Indian
 
 #### Equipment Violation
 
