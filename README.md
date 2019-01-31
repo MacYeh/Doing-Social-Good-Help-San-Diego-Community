@@ -72,11 +72,11 @@ Remember ***`Filter`*** way in Pandas to clean sex X
 #### Visulization and Results
 
 Utilize 
-1. **`Seaborn Distribution``**
+1. **`Seaborn Distribution``** to have the distribution between age and the counts of violations
 2. **`Seaborn FacetGrid`** to have multiple plotts with different stop-causes
 3. **`Seaborn HeatMap`** to visualize the relation between age and stop cause
 
-[Age-Sex Stop-Cause](https://github.com/MacYeh/Help-San-Diego-Community-/blob/master/police_pull_over/figure/age_stop_cause.png)
+![Age-Sex Stop-Cause](https://github.com/MacYeh/Help-San-Diego-Community-/blob/master/police_pull_over/figure/age_stop_cause.png)
 
 #### Observation and Conclusion
 
